@@ -58,9 +58,10 @@ tasks {
     // Tracking: https://github.com/KengoTODA/gradle-semantic-release-plugin/issues/435
     // Tracking: https://github.com/KengoTODA/gradle-semantic-release-plugin/issues/435
     register("publish") {
-    publish {
         group = "publishing"
         description = "Publishes all publications produced by this project."
 
         dependsOn(build)
+
+    }
 }
