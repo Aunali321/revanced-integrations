@@ -47,7 +47,7 @@ class VolumeAndBrightnessScrollerImpl(
     private val volumeController: AudioVolumeController?,
     private val screenController: ScreenBrightnessController?,
     private val overlayController: SwipeControlsOverlay,
-    volumeDistance: Int = 10,
+    volumeDistance: Int = 1,
     brightnessDistance: Int = 1,
 ) : VolumeAndBrightnessScroller {
 
